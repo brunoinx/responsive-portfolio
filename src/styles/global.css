@@ -1,0 +1,14 @@
+@import url(//db.onlinewebfonts.com/c/229a57bbeef591e04a1fdfe347c90864?family=Centra+No2);
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  -webkit-font-smoothing: antialiased;
+  font-family: 'Centra No2';
+}
+
+a {
+  @apply text-zinc-400;
+}
