@@ -2,7 +2,7 @@ import Typewriter from 'typewriter-effect';
 
 import HeroImg from '../../assets/img/header-img.svg';
 
-const availableOffice = ['Mobile Development', 'Frontend Development'];
+const availableOffice = ['Mobile Developer', 'Frontend Developer'];
 
 export function Banner() {
   return (
@@ -13,7 +13,7 @@ export function Banner() {
         </span>
 
         <h1 className="text-6xl text-zinc-200 font-centraBold">
-          Hi guys, i am Bruno!
+          Hi! I'm Bruno
           <Typewriter
             options={{
               strings: availableOffice,
