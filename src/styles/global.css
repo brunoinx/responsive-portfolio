@@ -17,6 +17,12 @@
   src: url('./fonts/CentraNo2-Bold.ttf');
 }
 
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 body {
   -webkit-font-smoothing: antialiased;
 }
