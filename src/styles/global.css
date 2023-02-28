@@ -25,6 +25,7 @@
 
 body {
   -webkit-font-smoothing: antialiased;
+  overflow: overlay;
 }
 
 span a p h1 {
@@ -33,4 +34,12 @@ span a p h1 {
 
 a {
   @apply text-zinc-400;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+body::-webkit-scrollbar-thumb {
+  @apply rounded-2xl bg-gray-400/40 hover:bg-gray-400 transition-all duration-500;
 }
