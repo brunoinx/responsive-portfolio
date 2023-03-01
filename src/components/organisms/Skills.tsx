@@ -5,7 +5,7 @@ export function Skills() {
   return (
     <section>
       <div className="relative">
-        <div className="w-full h-[460px] bg-black flex justify-center">
+        <div className="w-full bg-[#121212] flex justify-center pb-10">
           <CardSkill />
         </div>
 
