@@ -1,5 +1,6 @@
 import { Banner } from './components/organisms/Banner';
 import { Navbar } from './components/organisms/Navbar';
+import { Projects } from './components/organisms/Projects';
 import { Skills } from './components/organisms/Skills';
 
 function App() {
@@ -13,6 +14,7 @@ function App() {
       </div>
 
       <Skills />
+      <Projects />
     </>
   );
 }
