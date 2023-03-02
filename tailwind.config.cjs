@@ -6,6 +6,14 @@ module.exports = {
       backgroundColor: {
         background: '#000300',
       },
+      colors: {
+        fuchsia: {
+          750: '#AA367C',
+        },
+        indigo: {
+          750: '#4A2FBD',
+        },
+      },
       backgroundImage: {
         banner: 'url(src/assets/img/banner-bg.png)',
       },
