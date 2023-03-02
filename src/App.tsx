@@ -1,7 +1,8 @@
-import { Banner } from './components/organisms/Banner';
 import { Navbar } from './components/organisms/Navbar';
-import { Projects } from './components/organisms/Projects';
+import { Banner } from './components/organisms/Banner';
 import { Skills } from './components/organisms/Skills';
+import { Projects } from './components/organisms/Projects';
+import { ContactMe } from './components/organisms/ContactMe';
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
 
       <Skills />
       <Projects />
+      <ContactMe />
     </>
   );
 }
