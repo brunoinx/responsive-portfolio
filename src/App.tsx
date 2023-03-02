@@ -3,6 +3,7 @@ import { Banner } from './components/organisms/Banner';
 import { Skills } from './components/organisms/Skills';
 import { Projects } from './components/organisms/Projects';
 import { ContactMe } from './components/organisms/ContactMe';
+import { Footer } from './components/organisms/Footer';
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
       <Skills />
       <Projects />
       <ContactMe />
+      <Footer />
     </>
   );
 }

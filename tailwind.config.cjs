@@ -16,6 +16,7 @@ module.exports = {
       },
       backgroundImage: {
         banner: 'url(src/assets/img/banner-bg.png)',
+        footer: 'url(src/assets/img/footer-bg.png)',
       },
       fontFamily: {
         centraRegular: ['Centra No2 Book', 'sans-serif'],
