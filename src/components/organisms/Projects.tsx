@@ -4,7 +4,7 @@ import { projects } from '../../data/projects';
 
 export function Projects() {
   return (
-    <section>
+    <section id="projects">
       <div className="bg-black w-full py-20">
         <div className="w-full max-w-[1296px] m-auto">
           <div className="text-center mb-12">

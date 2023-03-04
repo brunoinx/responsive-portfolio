@@ -3,7 +3,10 @@ import { Input } from '../atoms/Input';
 
 export function ContactMe() {
   return (
-    <section className="bg-gradient-to-r from-fuchsia-750 to-indigo-750 pt-[60px] pb-[200px]">
+    <section
+      id="contact"
+      className="bg-gradient-to-r from-fuchsia-750 to-indigo-750 pt-[60px] pb-[200px]"
+    >
       <div className="w-full max-w-[1296px] m-auto mt-10 flex items-center justify-between">
         <img
           src={ContactImg}

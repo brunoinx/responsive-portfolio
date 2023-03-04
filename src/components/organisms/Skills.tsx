@@ -3,7 +3,7 @@ import { CardSkill } from '../molecules/CardSkill';
 
 export function Skills() {
   return (
-    <section>
+    <section id="skills">
       <div className="relative">
         <div className="w-full bg-[#121212] flex justify-center pb-10">
           <CardSkill />

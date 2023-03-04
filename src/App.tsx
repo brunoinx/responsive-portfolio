@@ -8,8 +8,8 @@ import { Footer } from './components/organisms/Footer';
 function App() {
   return (
     <>
-      <div className="w-full h-screen bg-banner bg-cover">
-        <div className="max-w-[1320px] mx-auto py-4 flex flex-col justify-between">
+      <div className="w-full h-screen bg-banner bg-cover bg-no-repeat relative">
+        <div className="max-w-[1396px] mx-auto flex flex-col justify-between">
           <Navbar />
           <Banner />
         </div>

@@ -1,12 +1,12 @@
 interface Props {
   title: string;
-  url: string;
+  href: string;
 }
 
-export function Link({ title, url }: Props) {
+export function Link({ title, href }: Props) {
   return (
     <a
-      href={url}
+      href={href}
       className="text-lg leading-tight capitalize hover:text-zinc-300"
     >
       {title}

@@ -6,7 +6,7 @@ const availableOffice = ['Mobile Developer', 'Frontend Developer'];
 
 export function Banner() {
   return (
-    <section className="flex justify-between mt-36 gap-4">
+    <section id="banner" className="flex justify-between mt-36 gap-4">
       <div className="w-4/6 mr-10">
         <span className="text-white font-centraBold text-xl inline-block py-2 px-3 bg-gradient-to-r from-[#aa367c80] to-[#4a2fbd80] border border-zinc-300 mb-4">
           Welcome to my Portfolio
